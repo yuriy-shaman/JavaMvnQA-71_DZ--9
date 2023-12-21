@@ -37,14 +37,14 @@ public class Radio {
     private int carrentVolume;
 
     public void up() {
-        if (carrentVolume != 100) {      // Если громкость не 100 (минимаиьальная) ...
+        if (carrentVolume != 100) {      // Если громкость не 100 (Максимаиьальная) ...
             carrentVolume++;          // Прибавляем 1 к ее текущему значению
         } else {
             carrentVolume = 100;           // Иначе, стоим на 100
         }
     }
     public void down() {
-        if (carrentVolume != 0) {      // Если грмкость не 100
+        if (carrentVolume != 0) {      // Если грмкость не 0
             carrentVolume--;          // Уменьшаем на 1 от текущего значения громкости
         } else {
             carrentVolume = 0;           // Иначе, стоим на 0
