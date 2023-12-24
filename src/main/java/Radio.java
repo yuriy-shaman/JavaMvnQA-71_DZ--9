@@ -3,7 +3,7 @@ public class Radio {
 
     private int carrentStation;
 
-    public void next() {
+    public void next() { // Test !!!
 
         if (carrentStation != 9) {      // Если станция не 9 (максиьальная) ...
             carrentStation++;          // Прибавляем 1 к текущему номерустанции
